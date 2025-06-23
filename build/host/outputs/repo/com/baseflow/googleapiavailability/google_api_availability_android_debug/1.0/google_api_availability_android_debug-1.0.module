@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.googleapiavailability",
+    "module": "google_api_availability_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_api_availability_android_debug-1.0.aar",
+          "url": "google_api_availability_android_debug-1.0.aar",
+          "size": 10783,
+          "sha512": "b90305d44d36be46149a7461be95a77664f5393828e468337e63f2fe6da7338eeed1316f6ca9365985a25a493a30c9d679c0133491b3b8c6e9a0b1dcf6222963",
+          "sha256": "9cdd208e131583520d0fc5c1e492f178fd09c73a566d1e240d30062b42e01ec9",
+          "sha1": "71e2395937125b7806d89cd5a95d8be9bf6b5162",
+          "md5": "02d342e43fc0be08703e0355abce1e16"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_api_availability_android_debug-1.0.aar",
+          "url": "google_api_availability_android_debug-1.0.aar",
+          "size": 10783,
+          "sha512": "b90305d44d36be46149a7461be95a77664f5393828e468337e63f2fe6da7338eeed1316f6ca9365985a25a493a30c9d679c0133491b3b8c6e9a0b1dcf6222963",
+          "sha256": "9cdd208e131583520d0fc5c1e492f178fd09c73a566d1e240d30062b42e01ec9",
+          "sha1": "71e2395937125b7806d89cd5a95d8be9bf6b5162",
+          "md5": "02d342e43fc0be08703e0355abce1e16"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_api_availability_android_debug-1.0-sources.jar",
+          "url": "google_api_availability_android_debug-1.0-sources.jar",
+          "size": 4340,
+          "sha512": "d3df5efb2e69693c10aa20233be11edb72b79729a86317bfd96bb270a3d17bb4f9ba06bc09dd1338b01f6b8132bbb44ddbc7ad867358fd1e0fa91a46ed20497b",
+          "sha256": "1d2da8bcf52c79efecd43e2d2306565c1aa43a95c279c04324fb6aa8012eafd9",
+          "sha1": "4396701311008b7311eabe67030bba81fbe42c2a",
+          "md5": "82113b662a4e791d8bf1804d60a14de5"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_api_availability_android_debug-1.0-javadoc.jar",
+          "url": "google_api_availability_android_debug-1.0-javadoc.jar",
+          "size": 269327,
+          "sha512": "00471e9550dc59fdd1d21ee91e961c387b2c753e0e5628789791a73cf433fef182db89baa06d16d7a0c8854477d136300d325ec814b4cb928955adc6794a2f9e",
+          "sha256": "3d3d097e12d2782e4200f0633b2c2a47322da08524831db19c404d118f7d7451",
+          "sha1": "ba34376bdaea12f914a91887f26839913a2fd075",
+          "md5": "2eb5dfa5a1e48ec9506fd294efb525f0"
+        }
+      ]
+    }
+  ]
+}

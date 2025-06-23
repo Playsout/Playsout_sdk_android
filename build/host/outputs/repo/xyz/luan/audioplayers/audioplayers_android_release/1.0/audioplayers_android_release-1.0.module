@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.luan.audioplayers",
+    "module": "audioplayers_android_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioplayers_android_release-1.0.aar",
+          "url": "audioplayers_android_release-1.0.aar",
+          "size": 62130,
+          "sha512": "50d1395b3b5ea296fabb5b62cb936c21a70955c2d53757391a4fa27a0f1a428cdc5209961259ebce8c465dc1adf9602cfde68d445edd083196538696e6b94b34",
+          "sha256": "64ae31ec1bff8df4ade33e25f742ec81c8705e8d69a58e1ad9ae2be94b934c3e",
+          "sha1": "8dae6069109fae3dbf670722dea690a8f8495583",
+          "md5": "0eca4bbdd92da48006158e0d1529fa82"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioplayers_android_release-1.0.aar",
+          "url": "audioplayers_android_release-1.0.aar",
+          "size": 62130,
+          "sha512": "50d1395b3b5ea296fabb5b62cb936c21a70955c2d53757391a4fa27a0f1a428cdc5209961259ebce8c465dc1adf9602cfde68d445edd083196538696e6b94b34",
+          "sha256": "64ae31ec1bff8df4ade33e25f742ec81c8705e8d69a58e1ad9ae2be94b934c3e",
+          "sha1": "8dae6069109fae3dbf670722dea690a8f8495583",
+          "md5": "0eca4bbdd92da48006158e0d1529fa82"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audioplayers_android_release-1.0-sources.jar",
+          "url": "audioplayers_android_release-1.0-sources.jar",
+          "size": 16164,
+          "sha512": "52141dae6c90a3eda971829b1b6d23a0f8b29f4b9091efc02ab2246c36f7cfe268deb277f84369c622a14b67efdb65121a7761be2ecc2186d4b7f4538b019d59",
+          "sha256": "768a8f7541b89146b087c12c4b4c5eb2ffafb4ad1bc893c982bd0e832947fc74",
+          "sha1": "935cb2521cc783ab7ab1a0dc093678103921a7c6",
+          "md5": "f2a34eaca0c2c54e3c622bdec51cc822"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audioplayers_android_release-1.0-javadoc.jar",
+          "url": "audioplayers_android_release-1.0-javadoc.jar",
+          "size": 360878,
+          "sha512": "b401a735c39eb89c6e9897bec9e3da83f9c516928a30a0f86e50de00211ae6636c96de2d5de44e7110073abd649b6f8ee96795383a2e2f7e519bca29bca25283",
+          "sha256": "1626304a539da6d674bb63ca0e0a0f935ae01be06702d8f025efe7dcb86bdd41",
+          "sha1": "e601f7c29bd5e0898e61d11eb45f7b536735658c",
+          "md5": "512f154dbdcf2a4d558cce554601369f"
+        }
+      ]
+    }
+  ]
+}

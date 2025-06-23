@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.playsout.flutter_webgl",
+    "module": "flutter_webgl_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_webgl_release-1.0.aar",
+          "url": "flutter_webgl_release-1.0.aar",
+          "size": 9223,
+          "sha512": "58a8cf1efc7128b6003fe7a1d09792a3cde01b2b8948282da1beda5169b89d046dc3123b8a9c98b7d2c1da528dcc99b0960d925106e9afa3655499212d71e2f7",
+          "sha256": "44819263ae40da93f3fa87d937808b14a7ba99635c9f05b4d56d4cf4581d06e2",
+          "sha1": "648aa175ef9456644cafa6648c431d0507a330ae",
+          "md5": "8fda1244e01c41569a1756198a262b48"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_webgl_release-1.0.aar",
+          "url": "flutter_webgl_release-1.0.aar",
+          "size": 9223,
+          "sha512": "58a8cf1efc7128b6003fe7a1d09792a3cde01b2b8948282da1beda5169b89d046dc3123b8a9c98b7d2c1da528dcc99b0960d925106e9afa3655499212d71e2f7",
+          "sha256": "44819263ae40da93f3fa87d937808b14a7ba99635c9f05b4d56d4cf4581d06e2",
+          "sha1": "648aa175ef9456644cafa6648c431d0507a330ae",
+          "md5": "8fda1244e01c41569a1756198a262b48"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_webgl_release-1.0-sources.jar",
+          "url": "flutter_webgl_release-1.0-sources.jar",
+          "size": 5660,
+          "sha512": "8c1ef5d5e8a1dfc558f0ae40a8ed7cc5a3bf550be0995f957d132e527b52d58df6d9ea92ff2cfaaf1710bf14ae30f316534a842ffee56837cd1dbdb7ed4ab74d",
+          "sha256": "f3b938f8fa894ad67aac35ad43fdcd0dbd9c6350a0bdcafb28d442932f48733a",
+          "sha1": "410ce9c3bea955507d3033f5d70f4288ccab1d26",
+          "md5": "8b694b851a7ca46ffd75e87e06288ba1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_webgl_release-1.0-javadoc.jar",
+          "url": "flutter_webgl_release-1.0-javadoc.jar",
+          "size": 266994,
+          "sha512": "d6b2151c556734e78ad5a9d6e81ec87552a63b0aaa400c2b632af9750030eb1ebbd8eac77539fa95df1c9272a5d78e42bcdb6a6f12edbd29015de16c328e7870",
+          "sha256": "61b2f8d2d84b888bc8ee32d77601ff145f05c827278d16912757e092d4affd64",
+          "sha1": "889790660a91dc6c61a4e043a597781ad555d13b",
+          "md5": "a34b8c2be5e3b795d8c7a16176bf23a9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.lschmierer.android_play_install_referrer",
+    "module": "android_play_install_referrer_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_play_install_referrer_debug-1.0.aar",
+          "url": "android_play_install_referrer_debug-1.0.aar",
+          "size": 6530,
+          "sha512": "8e001d769ee77b1ebc5b5b536e3c16cefe7d10fce409fed5a2942a9dbc36ce6331c5cb656a216c24e3a9a2205a3b6a365629669f0d25f70042a9b2acc25fff42",
+          "sha256": "cddf9b30e0efe2c0f9defb485bd35331cff5d44d32488defdea4d4e9af3df9de",
+          "sha1": "238c60bc0d7957338be79c232a273d4e84e14135",
+          "md5": "cf0560f1e77f029e11cf62ec02bb19ef"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_play_install_referrer_debug-1.0.aar",
+          "url": "android_play_install_referrer_debug-1.0.aar",
+          "size": 6530,
+          "sha512": "8e001d769ee77b1ebc5b5b536e3c16cefe7d10fce409fed5a2942a9dbc36ce6331c5cb656a216c24e3a9a2205a3b6a365629669f0d25f70042a9b2acc25fff42",
+          "sha256": "cddf9b30e0efe2c0f9defb485bd35331cff5d44d32488defdea4d4e9af3df9de",
+          "sha1": "238c60bc0d7957338be79c232a273d4e84e14135",
+          "md5": "cf0560f1e77f029e11cf62ec02bb19ef"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android_play_install_referrer_debug-1.0-sources.jar",
+          "url": "android_play_install_referrer_debug-1.0-sources.jar",
+          "size": 2255,
+          "sha512": "1faf37e9392274091fa0c3a7a804075d91e480fe6c4b985697a09a30ede34b29510994df2247c697634a3608058d02b76c7f1c1b60a4f590425770f7e6055ca6",
+          "sha256": "21886ccda08d0985d50716dc356c474f6e183f39f056ad616e9aa2c524269749",
+          "sha1": "802914b9a67d7190321619010220fce0dfa0931a",
+          "md5": "e77bf8c94c307f1a6177df66fc138c6b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android_play_install_referrer_debug-1.0-javadoc.jar",
+          "url": "android_play_install_referrer_debug-1.0-javadoc.jar",
+          "size": 262682,
+          "sha512": "97be5009eb04788377bbd26c8d1a9b89941d3ae26c6f02dcb7d1ebb182a0883b6d6d9a85ef0e0847354a88196a4c1239042d3026594bdb0dd4c23799733f1a62",
+          "sha256": "0f80303f9f5ebf4048e914c737b6fa7d6a17919d52f8eb11b23b69dec5e5dbc2",
+          "sha1": "2ed1b6891c3b3e5557a9ada1e21aae9a3a0248eb",
+          "md5": "1c1255283adda8709204bfe1d02b5471"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.luan.audioplayers",
+    "module": "audioplayers_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioplayers_android_debug-1.0.aar",
+          "url": "audioplayers_android_debug-1.0.aar",
+          "size": 65262,
+          "sha512": "8a73c98304c737620598019f50567de520b4835a119c3297b9b3378bab7c08b274d76eef63262d1f385e0f2cc37a5ee1dfd0711840d6be3191017d24ecdd0a9b",
+          "sha256": "0a3e2794df4534fff77f9e44bfb43c956656ed98717f66ca2ec7c9ceb9c5ece1",
+          "sha1": "be333f7f8cf59091db55b8813dab366b079abbee",
+          "md5": "eb7dab9eae3eccf421b6eac923253293"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioplayers_android_debug-1.0.aar",
+          "url": "audioplayers_android_debug-1.0.aar",
+          "size": 65262,
+          "sha512": "8a73c98304c737620598019f50567de520b4835a119c3297b9b3378bab7c08b274d76eef63262d1f385e0f2cc37a5ee1dfd0711840d6be3191017d24ecdd0a9b",
+          "sha256": "0a3e2794df4534fff77f9e44bfb43c956656ed98717f66ca2ec7c9ceb9c5ece1",
+          "sha1": "be333f7f8cf59091db55b8813dab366b079abbee",
+          "md5": "eb7dab9eae3eccf421b6eac923253293"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audioplayers_android_debug-1.0-sources.jar",
+          "url": "audioplayers_android_debug-1.0-sources.jar",
+          "size": 16164,
+          "sha512": "52141dae6c90a3eda971829b1b6d23a0f8b29f4b9091efc02ab2246c36f7cfe268deb277f84369c622a14b67efdb65121a7761be2ecc2186d4b7f4538b019d59",
+          "sha256": "768a8f7541b89146b087c12c4b4c5eb2ffafb4ad1bc893c982bd0e832947fc74",
+          "sha1": "935cb2521cc783ab7ab1a0dc093678103921a7c6",
+          "md5": "f2a34eaca0c2c54e3c622bdec51cc822"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audioplayers_android_debug-1.0-javadoc.jar",
+          "url": "audioplayers_android_debug-1.0-javadoc.jar",
+          "size": 360878,
+          "sha512": "b401a735c39eb89c6e9897bec9e3da83f9c516928a30a0f86e50de00211ae6636c96de2d5de44e7110073abd649b6f8ee96795383a2e2f7e519bca29bca25283",
+          "sha256": "1626304a539da6d674bb63ca0e0a0f935ae01be06702d8f025efe7dcb86bdd41",
+          "sha1": "e601f7c29bd5e0898e61d11eb45f7b536735658c",
+          "md5": "512f154dbdcf2a4d558cce554601369f"
+        }
+      ]
+    }
+  ]
+}

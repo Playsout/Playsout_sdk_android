@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.wakelock",
+    "module": "wakelock_plus_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_plus_debug-1.0.aar",
+          "url": "wakelock_plus_debug-1.0.aar",
+          "size": 19262,
+          "sha512": "c5be1fa5d62068773e20c2fd9f432a1c2f4321324516f7991dbe99060b704965275204e5f7e0c961e902daaf912ab856f8eec6f1bc469035abe082fd9f00da88",
+          "sha256": "ba8691bfbf2936afd795b9205fe9a601c6a207c89fe39f8b69c1ca97673caa9a",
+          "sha1": "b9d0804551ad084721dbe12108fbb7fa6b4d206c",
+          "md5": "d3ca144a7dba089155c267e0df6bb979"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.packageinfo",
+          "module": "package_info_plus_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_plus_debug-1.0.aar",
+          "url": "wakelock_plus_debug-1.0.aar",
+          "size": 19262,
+          "sha512": "c5be1fa5d62068773e20c2fd9f432a1c2f4321324516f7991dbe99060b704965275204e5f7e0c961e902daaf912ab856f8eec6f1bc469035abe082fd9f00da88",
+          "sha256": "ba8691bfbf2936afd795b9205fe9a601c6a207c89fe39f8b69c1ca97673caa9a",
+          "sha1": "b9d0804551ad084721dbe12108fbb7fa6b4d206c",
+          "md5": "d3ca144a7dba089155c267e0df6bb979"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wakelock_plus_debug-1.0-sources.jar",
+          "url": "wakelock_plus_debug-1.0-sources.jar",
+          "size": 3916,
+          "sha512": "359767be2b797d98373f6871328829009d6022867726334813b38969564f029dc5b1aeea9e1e28a5a6031c1a261b5d2e135d26783a33ac117f587f0196df6e29",
+          "sha256": "fd5b4a6f7f39aafb97d6d8992d3dd22e7349b4be8609b38d9f9abf3c352a01f1",
+          "sha1": "aa81e2a7321590905f0114b14d7c1c6b63922989",
+          "md5": "e818359f078b4a104e6aa81dc9b61f93"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wakelock_plus_debug-1.0-javadoc.jar",
+          "url": "wakelock_plus_debug-1.0-javadoc.jar",
+          "size": 310460,
+          "sha512": "a8adaae78f3fbcc82c2e90f196067c1270b1afbf112260941b38b1a385d7ad056450c1e4798b5dd78a425794ce1859e55d86ea33f864f64cb9641178306536cb",
+          "sha256": "5e59e1420f1e8eccfb4e01c7671fe38445d344336610dad01662e4b97b0fcaa5",
+          "sha1": "31fd52ba9b1dad78f3074483e35ea694ef9bdc6b",
+          "md5": "89d25791c1b26296f8b6f04be3074d83"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.googlemobileads",
+    "module": "google_mobile_ads_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_mobile_ads_release-1.0.aar",
+          "url": "google_mobile_ads_release-1.0.aar",
+          "size": 126759,
+          "sha512": "27a5d31ca1cf81267e001b6cc66b650e505206ea75b2044799da95a59ece3a356c029fc6c8e6f1bacb855075670ed3d5f1623fed957aeb85fa871e0ce7341c37",
+          "sha256": "8e267fe8402648edec89b9d114d3ade01217c7e8bbf4c16335e612909b2bafb6",
+          "sha1": "337075527b4019eaafae9d19d88ce63677cd6393",
+          "md5": "4d8fe058a06b5661358af583bd309a27"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.16"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_mobile_ads_release-1.0.aar",
+          "url": "google_mobile_ads_release-1.0.aar",
+          "size": 126759,
+          "sha512": "27a5d31ca1cf81267e001b6cc66b650e505206ea75b2044799da95a59ece3a356c029fc6c8e6f1bacb855075670ed3d5f1623fed957aeb85fa871e0ce7341c37",
+          "sha256": "8e267fe8402648edec89b9d114d3ade01217c7e8bbf4c16335e612909b2bafb6",
+          "sha1": "337075527b4019eaafae9d19d88ce63677cd6393",
+          "md5": "4d8fe058a06b5661358af583bd309a27"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_mobile_ads_release-1.0-sources.jar",
+          "url": "google_mobile_ads_release-1.0-sources.jar",
+          "size": 72821,
+          "sha512": "9f49a512134adf2523c12f68742460dd5060d7f26831dd68b56bff6c800da3f3bf98ebc3693ec996095596d1dcd3234a80e9c32898ee4917827dbe5e79f1fbcb",
+          "sha256": "baba48c0b0f91adeb4ce5f51fe680c12bb4813c857d1299460532fb3c8e15ef3",
+          "sha1": "1877b3d550e1c0ffd3edb2dbd42ac8ba57e2bd72",
+          "md5": "022f00dd27d18dc16e4984ff9a949e4b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_mobile_ads_release-1.0-javadoc.jar",
+          "url": "google_mobile_ads_release-1.0-javadoc.jar",
+          "size": 393050,
+          "sha512": "182d9488a375f455c8e500efca89d64f4c00c5d193c299c217119afb31150101b4495f436ecaa19399e143a519ade9791d4119eca3639ac24f04ed14930d240d",
+          "sha256": "ebfd0f27b9836e46a5dffc6189703b8fdce83be4e8a199a47c632eabddcd2b4d",
+          "sha1": "cfe27a25c35677f3ec302d98a8c0850f5a4c7419",
+          "md5": "fe70167c23d395cb413afe6261fcd3ac"
+        }
+      ]
+    }
+  ]
+}
