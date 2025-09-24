@@ -118,11 +118,11 @@
         {
           "name": "in_app_purchase_android_release-1.0-javadoc.jar",
           "url": "in_app_purchase_android_release-1.0-javadoc.jar",
-          "size": 496646,
-          "sha512": "030d3b469d85c4ce11fcb817efdf5c9ea192efea1018384b8b84adf31bd7510932cb99bbb77abc1c05d2e74b3d56491bbdb7bf722fa6a9e0f54896ae9d03e188",
-          "sha256": "d8043433abd0a5f54f253f32eb3aaff079d9784f73d1d9c16961aa56cc8fba91",
-          "sha1": "879d3a7f6ff3803bf69d81e984cdda0a863c7a09",
-          "md5": "cbd2b1fa9a4b7b4aa222ef6c2082ed54"
+          "size": 496647,
+          "sha512": "af642322541d7817a5b55e84fafa59cd6c3dedd3653c73d2c2cb5e978f6578fdb3a4fe7b76aad5383d2db87ac89729928b2e03fb0659254879683ee30386bbbc",
+          "sha256": "a283c9bb6e8ff101fa4b285b386fa8c13f7e6b64a591818b1a6fd51ef2fb617b",
+          "sha1": "5f06a5a53eb29f201fba726ab377476a2d84b2c5",
+          "md5": "595aef4d3c5b7c98f1c70419a28509a3"
         }
       ]
     }

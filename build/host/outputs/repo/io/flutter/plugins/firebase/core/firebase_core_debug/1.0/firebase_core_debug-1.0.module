@@ -126,11 +126,11 @@
         {
           "name": "firebase_core_debug-1.0-javadoc.jar",
           "url": "firebase_core_debug-1.0-javadoc.jar",
-          "size": 326610,
-          "sha512": "0ff44596bc3fa8ee667adfd5d248dcb3800915591ef466afe030f720fe20e129cf461c7fcc99c2c7fa70de12566dc288fdf70650be49528573886b91791fc89b",
-          "sha256": "c0885a1244c933bd78dcd75ae54be0165af637f22c18a908ea6ba897c5d9a89e",
-          "sha1": "f7ebe93626e620b38ba501c5ef1fd62343bab314",
-          "md5": "01bd457f7376652afcf8649d763a47cf"
+          "size": 326612,
+          "sha512": "faa8c8e3097d07984529678503e836aaf4366eae2bbea24ccabe6e45a51bf6e15ff84579b7efc19072f6b257dc0743a4046556bfc07a0f2b07a28be2e9b441fa",
+          "sha256": "926ba6985d4f62dacc733437e0b11486e5991073e4b3fecff88fee4d704c0593",
+          "sha1": "157e934f1602304a2298492fe9c88c2b2e45644b",
+          "md5": "708e4ad13d15620adcef0ac3edb19598"
         }
       ]
     }
