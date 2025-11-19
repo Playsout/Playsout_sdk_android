@@ -35,11 +35,11 @@
         {
           "name": "flutter_webgl_debug-1.0.aar",
           "url": "flutter_webgl_debug-1.0.aar",
-          "size": 2551286,
-          "sha512": "293e8bdd7e18eef43752bb58349adc70579fdf8e535ae23951bb18a277703e6dcb77131caafa275a45a4f36e515bb8fadd49b3cb9993f6b78f794ac1fedd4c7d",
-          "sha256": "f9eb5f09d147b0ccf547f295a9a8bce507751ab10cd0d292d088b02f8c36882d",
-          "sha1": "1bebe62c2b32b9b7ef7d5d6d397065aeee31308b",
-          "md5": "a80b850a8f486034f543d6ba9db43c5a"
+          "size": 2551271,
+          "sha512": "6c788d78962d44e0454af4f5a7e39add07031af5333f34d594a7247dcbf89c7b58cdb5731709173e3855cd1b33ad8b469495ffcd3f61d6059b6a0f1dbb239b63",
+          "sha256": "604f742465a6f3716d1497a7e4ba29c536007585e5e10faa90061fdea2f6685f",
+          "sha1": "1cb8d973c87182903c314d30d92e90ef42845948",
+          "md5": "28d7c56b66eaf3aeb1b505f4a3dfa468"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "flutter_webgl_debug-1.0.aar",
           "url": "flutter_webgl_debug-1.0.aar",
-          "size": 2551286,
-          "sha512": "293e8bdd7e18eef43752bb58349adc70579fdf8e535ae23951bb18a277703e6dcb77131caafa275a45a4f36e515bb8fadd49b3cb9993f6b78f794ac1fedd4c7d",
-          "sha256": "f9eb5f09d147b0ccf547f295a9a8bce507751ab10cd0d292d088b02f8c36882d",
-          "sha1": "1bebe62c2b32b9b7ef7d5d6d397065aeee31308b",
-          "md5": "a80b850a8f486034f543d6ba9db43c5a"
+          "size": 2551271,
+          "sha512": "6c788d78962d44e0454af4f5a7e39add07031af5333f34d594a7247dcbf89c7b58cdb5731709173e3855cd1b33ad8b469495ffcd3f61d6059b6a0f1dbb239b63",
+          "sha256": "604f742465a6f3716d1497a7e4ba29c536007585e5e10faa90061fdea2f6685f",
+          "sha1": "1cb8d973c87182903c314d30d92e90ef42845948",
+          "md5": "28d7c56b66eaf3aeb1b505f4a3dfa468"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "flutter_webgl_debug-1.0-sources.jar",
           "url": "flutter_webgl_debug-1.0-sources.jar",
-          "size": 7187,
-          "sha512": "87d9d7a31b861a323a8ef724550e6ab8aa0a247ff667d204411e7f90d2167d591803c29439997bbbb3fa76100648a8f9fd9f9f3e153258bbd325be7c505bf7c8",
-          "sha256": "8b766bc2a741629e22ca4be142b49054b52ee40c11c49d7d02c48358bbd422a0",
-          "sha1": "8e0f8190329c5195c7df3d5f00739c763d5560c0",
-          "md5": "80c42699571b77486fddaca70f59a8d5"
+          "size": 7191,
+          "sha512": "ac30efedd9d6008524b16cff67ff858883569a40dccc6638949a2e7f6a1227d643286622af8e8135fa011962a5f51185dd55c46f3b831c5276229c9626953cf7",
+          "sha256": "69036051da077d7a2ca69177c150dce6192ad2031d105d2ff4a942bfa66a951b",
+          "sha1": "e203e62a9982133decbd442d1d0cd813b50493e9",
+          "md5": "ef1aba6d23fc589500c6b5fa0bae487c"
         }
       ]
     },
