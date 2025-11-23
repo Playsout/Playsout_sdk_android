@@ -121,12 +121,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>dev.steenbakker.mobile_scanner</groupId>
-      <artifactId>mobile_scanner_debug</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>dev.fluttercommunity.plus.packageinfo</groupId>
       <artifactId>package_info_plus_debug</artifactId>
       <version>1.0</version>
