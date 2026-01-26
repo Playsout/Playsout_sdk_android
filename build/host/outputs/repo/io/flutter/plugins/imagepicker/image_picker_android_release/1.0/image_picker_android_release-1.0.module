@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         }
       ],
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
@@ -139,11 +139,11 @@
         {
           "name": "image_picker_android_release-1.0-javadoc.jar",
           "url": "image_picker_android_release-1.0-javadoc.jar",
-          "size": 381887,
-          "sha512": "22622478865689cdb744906f6ebd70ed818980dcc5adb83e42453ab0f1a00b8693530603e6504b64e08f0d5c415a68d013cf71ff085a5e53dac64ca8009534ed",
-          "sha256": "91e8c7c04fdd1446b9eb3114a143aa22fe7f5f418fda5a99d664d5acd54fedba",
-          "sha1": "4347b4de8b5e2aa10c87eb57dcc754cba65132df",
-          "md5": "d3f78d16baded2485e0ee980a09f6b09"
+          "size": 381886,
+          "sha512": "fdaf8ad28d5227f20cc24d111fd2a553b883fe3431d063031c2ff3a9d51b708ab0c4b2f5521061658639a8c3c6c6307579d84e5dc4133f83665b83e361fe9d55",
+          "sha256": "ec8434c6357d6f12e98795e540297cfcf26a2d221d98e59257662b15766c7754",
+          "sha1": "32aa2b8aed6279f18c347937ec3f9c828a5a17ba",
+          "md5": "714fba47cd711eb6936414f5f1e8c7b6"
         }
       ]
     }

@@ -27,28 +27,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
@@ -217,11 +217,11 @@
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 61447737,
-          "sha512": "d730a6ca76fbbc00a88f08ff3ffdbd4f291abe297429e2aaf77cc9100c0353ee8b0823e23a5887f967ff98a7fff70071a59cceab733abde1de184af0e1d68178",
-          "sha256": "a3eef9f46b92b6f89394baf06ae6946668b25edc9efdb8aaac4f8e5d7ae8405e",
-          "sha1": "b140b9affaedc4563ee942d994a3696fca53f977",
-          "md5": "f6eddfcd4da48351d932c1025e03ab65"
+          "size": 29998775,
+          "sha512": "f3c08a665724e96bcc4fc8d59645e2aba1185c48bcad1c582f8fac242aaa521e3778d7db4e0617285ff6c2a8f66d0b49bcd9295208d85419333a1193c267c59a",
+          "sha256": "0fcfe88dbf62db8753cb087ab7ce73992229c49789bb9704b0875d1fc21f8ffb",
+          "sha1": "a5a61bfbaa8a6356e7df7a926926cec4d0317be6",
+          "md5": "a861c2648cd5391e535929f8ffb70c89"
         }
       ]
     },
@@ -238,28 +238,28 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
           "group": "io.flutter",
           "module": "armeabi_v7a_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
           "group": "io.flutter",
           "module": "arm64_v8a_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
           "group": "io.flutter",
           "module": "x86_64_debug",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
@@ -428,11 +428,11 @@
         {
           "name": "flutter_debug-1.0.aar",
           "url": "flutter_debug-1.0.aar",
-          "size": 61447737,
-          "sha512": "d730a6ca76fbbc00a88f08ff3ffdbd4f291abe297429e2aaf77cc9100c0353ee8b0823e23a5887f967ff98a7fff70071a59cceab733abde1de184af0e1d68178",
-          "sha256": "a3eef9f46b92b6f89394baf06ae6946668b25edc9efdb8aaac4f8e5d7ae8405e",
-          "sha1": "b140b9affaedc4563ee942d994a3696fca53f977",
-          "md5": "f6eddfcd4da48351d932c1025e03ab65"
+          "size": 29998775,
+          "sha512": "f3c08a665724e96bcc4fc8d59645e2aba1185c48bcad1c582f8fac242aaa521e3778d7db4e0617285ff6c2a8f66d0b49bcd9295208d85419333a1193c267c59a",
+          "sha256": "0fcfe88dbf62db8753cb087ab7ce73992229c49789bb9704b0875d1fc21f8ffb",
+          "sha1": "a5a61bfbaa8a6356e7df7a926926cec4d0317be6",
+          "md5": "a861c2648cd5391e535929f8ffb70c89"
         }
       ]
     },

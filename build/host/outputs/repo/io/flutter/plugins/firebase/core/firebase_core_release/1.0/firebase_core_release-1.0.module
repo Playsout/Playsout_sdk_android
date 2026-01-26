@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         }
       ],
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+            "requires": "1.0.0-78fc3012e45889657f72359b005af7beac47ba3d"
           }
         },
         {
@@ -126,11 +126,11 @@
         {
           "name": "firebase_core_release-1.0-javadoc.jar",
           "url": "firebase_core_release-1.0-javadoc.jar",
-          "size": 326610,
-          "sha512": "0ff44596bc3fa8ee667adfd5d248dcb3800915591ef466afe030f720fe20e129cf461c7fcc99c2c7fa70de12566dc288fdf70650be49528573886b91791fc89b",
-          "sha256": "c0885a1244c933bd78dcd75ae54be0165af637f22c18a908ea6ba897c5d9a89e",
-          "sha1": "f7ebe93626e620b38ba501c5ef1fd62343bab314",
-          "md5": "01bd457f7376652afcf8649d763a47cf"
+          "size": 326606,
+          "sha512": "8f24afcd7a837cfb027044c69a47c5de07b4a1b13936188244740ea9adf00d317fbd3b3fcb4f59d72eac8d875b2eff0dc4dde83c90c25f20bb810bab791c8c75",
+          "sha256": "fb8f4260d6359b6e80c2911cbd23bad54a6990966ba01a5861e5ff6e9182d2a5",
+          "sha1": "d6ec99585f42c30d476bb661ad9ae5ee5dc72bac",
+          "md5": "83a646ed6ac55849fba6367994a7232f"
         }
       ]
     }
