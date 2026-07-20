@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.firebase.core",
+    "module": "firebase_core_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_core_debug-1.0.aar",
+          "url": "firebase_core_debug-1.0.aar",
+          "size": 34883,
+          "sha512": "e6b60610870f398f4a9d465f6cce3593db7bdf5b9766d47430be5d283286e87eb0e3ea158ad1ccde66b16621ced9ea434e36e1530f490b80dcca090677566e9e",
+          "sha256": "b74ad4ac5f53f9834fb749663babfa2edd05601e4a38c3c1ad2d830a9f8c013f",
+          "sha1": "bafe79f93107b7edfc6c4b430809d0df4b1bc0ac",
+          "md5": "68230e430092b8f0522f673758168257"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.15.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-common"
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_core_debug-1.0.aar",
+          "url": "firebase_core_debug-1.0.aar",
+          "size": 34883,
+          "sha512": "e6b60610870f398f4a9d465f6cce3593db7bdf5b9766d47430be5d283286e87eb0e3ea158ad1ccde66b16621ced9ea434e36e1530f490b80dcca090677566e9e",
+          "sha256": "b74ad4ac5f53f9834fb749663babfa2edd05601e4a38c3c1ad2d830a9f8c013f",
+          "sha1": "bafe79f93107b7edfc6c4b430809d0df4b1bc0ac",
+          "md5": "68230e430092b8f0522f673758168257"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase_core_debug-1.0-sources.jar",
+          "url": "firebase_core_debug-1.0-sources.jar",
+          "size": 12128,
+          "sha512": "8e0e019f13e72d31f7fc32b90ffe450b1b48dc54fa483aea620197475362d20871ce887671585fa2ca01493f3c79e48bc38033e603565630d2e222a07b303ad1",
+          "sha256": "f21d29ed307bb84052e68a7dc6a026d9e50385bbe141deb022205491cb250db7",
+          "sha1": "f24cac34c8c70a50900dea6e4ed02ff81745f733",
+          "md5": "95139d0be4704cd2f43796fbdc118928"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase_core_debug-1.0-javadoc.jar",
+          "url": "firebase_core_debug-1.0-javadoc.jar",
+          "size": 335549,
+          "sha512": "42f89292759f8c263d399a0e03d01c717f1c87beb67c439fe20c8568e396502b6e17462483d2e2a759003e9e4e875078a20cba4c592ef670e35a1d3ebc06dfb8",
+          "sha256": "620d8b2221a2ed2dae3363cca6d5283741b0c18736c0d71114becac04f6250bf",
+          "sha1": "48ad0b5bde98a2297a8c4777d4f5ed72f27d9685",
+          "md5": "da6e82b5447b2ea06a324d3c0a4e2867"
+        }
+      ]
+    }
+  ]
+}

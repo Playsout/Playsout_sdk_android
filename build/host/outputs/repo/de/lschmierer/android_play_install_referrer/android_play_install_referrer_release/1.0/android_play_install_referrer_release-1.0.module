@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.lschmierer.android_play_install_referrer",
+    "module": "android_play_install_referrer_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_play_install_referrer_release-1.0.aar",
+          "url": "android_play_install_referrer_release-1.0.aar",
+          "size": 6253,
+          "sha512": "5f33e0e353e96c6e9e6bf5f1fd62e01cb88967caa7c7fb7f08b826ebae37d959e1a96246b5b6791eff445dfddf5e2a44b368f7c5ff2e7597437f8c3c6bf5b3db",
+          "sha256": "ba9ab9b244fbb85a7f8df563c0c8edf7babec63e06083e587da42884879802cb",
+          "sha1": "8b9b34a78b060e8606555cb28750e777cd983b20",
+          "md5": "e13ae161908211ab6066cdf87dd2bfbb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android_play_install_referrer_release-1.0.aar",
+          "url": "android_play_install_referrer_release-1.0.aar",
+          "size": 6253,
+          "sha512": "5f33e0e353e96c6e9e6bf5f1fd62e01cb88967caa7c7fb7f08b826ebae37d959e1a96246b5b6791eff445dfddf5e2a44b368f7c5ff2e7597437f8c3c6bf5b3db",
+          "sha256": "ba9ab9b244fbb85a7f8df563c0c8edf7babec63e06083e587da42884879802cb",
+          "sha1": "8b9b34a78b060e8606555cb28750e777cd983b20",
+          "md5": "e13ae161908211ab6066cdf87dd2bfbb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android_play_install_referrer_release-1.0-sources.jar",
+          "url": "android_play_install_referrer_release-1.0-sources.jar",
+          "size": 2255,
+          "sha512": "1faf37e9392274091fa0c3a7a804075d91e480fe6c4b985697a09a30ede34b29510994df2247c697634a3608058d02b76c7f1c1b60a4f590425770f7e6055ca6",
+          "sha256": "21886ccda08d0985d50716dc356c474f6e183f39f056ad616e9aa2c524269749",
+          "sha1": "802914b9a67d7190321619010220fce0dfa0931a",
+          "md5": "e77bf8c94c307f1a6177df66fc138c6b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android_play_install_referrer_release-1.0-javadoc.jar",
+          "url": "android_play_install_referrer_release-1.0-javadoc.jar",
+          "size": 262682,
+          "sha512": "97be5009eb04788377bbd26c8d1a9b89941d3ae26c6f02dcb7d1ebb182a0883b6d6d9a85ef0e0847354a88196a4c1239042d3026594bdb0dd4c23799733f1a62",
+          "sha256": "0f80303f9f5ebf4048e914c737b6fa7d6a17919d52f8eb11b23b69dec5e5dbc2",
+          "sha1": "2ed1b6891c3b3e5557a9ada1e21aae9a3a0248eb",
+          "md5": "1c1255283adda8709204bfe1d02b5471"
+        }
+      ]
+    }
+  ]
+}

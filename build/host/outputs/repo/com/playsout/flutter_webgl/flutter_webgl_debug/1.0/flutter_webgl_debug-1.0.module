@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.playsout.flutter_webgl",
+    "module": "flutter_webgl_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_webgl_debug-1.0.aar",
+          "url": "flutter_webgl_debug-1.0.aar",
+          "size": 2551269,
+          "sha512": "bf62fcc4540103e50e872cd471bfae2bcc963781964f57380b63786255847f0e21801f3ea5fe685598f42600730a671f6f059ee3ea52c9369c2ac329c63ffa51",
+          "sha256": "9cf07d22a2c96b64854fa42186e74beced9449f2cce96f90fc4c19e9735a8e09",
+          "sha1": "76247e3097964ae3fc3b6349fb1fb52ed4e0ac54",
+          "md5": "5db47842e90b4f3dac0d040bb38df662"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_webgl_debug-1.0.aar",
+          "url": "flutter_webgl_debug-1.0.aar",
+          "size": 2551269,
+          "sha512": "bf62fcc4540103e50e872cd471bfae2bcc963781964f57380b63786255847f0e21801f3ea5fe685598f42600730a671f6f059ee3ea52c9369c2ac329c63ffa51",
+          "sha256": "9cf07d22a2c96b64854fa42186e74beced9449f2cce96f90fc4c19e9735a8e09",
+          "sha1": "76247e3097964ae3fc3b6349fb1fb52ed4e0ac54",
+          "md5": "5db47842e90b4f3dac0d040bb38df662"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_webgl_debug-1.0-sources.jar",
+          "url": "flutter_webgl_debug-1.0-sources.jar",
+          "size": 7191,
+          "sha512": "ac30efedd9d6008524b16cff67ff858883569a40dccc6638949a2e7f6a1227d643286622af8e8135fa011962a5f51185dd55c46f3b831c5276229c9626953cf7",
+          "sha256": "69036051da077d7a2ca69177c150dce6192ad2031d105d2ff4a942bfa66a951b",
+          "sha1": "e203e62a9982133decbd442d1d0cd813b50493e9",
+          "md5": "ef1aba6d23fc589500c6b5fa0bae487c"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_webgl_debug-1.0-javadoc.jar",
+          "url": "flutter_webgl_debug-1.0-javadoc.jar",
+          "size": 266994,
+          "sha512": "d6b2151c556734e78ad5a9d6e81ec87552a63b0aaa400c2b632af9750030eb1ebbd8eac77539fa95df1c9272a5d78e42bcdb6a6f12edbd29015de16c328e7870",
+          "sha256": "61b2f8d2d84b888bc8ee32d77601ff145f05c827278d16912757e092d4affd64",
+          "sha1": "889790660a91dc6c61a4e043a597781ad555d13b",
+          "md5": "a34b8c2be5e3b795d8c7a16176bf23a9"
+        }
+      ]
+    }
+  ]
+}

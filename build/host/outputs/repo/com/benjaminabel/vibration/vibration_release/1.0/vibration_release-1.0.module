@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.benjaminabel.vibration",
+    "module": "vibration_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vibration_release-1.0.aar",
+          "url": "vibration_release-1.0.aar",
+          "size": 5674,
+          "sha512": "49a3cd7aa8b631c99d52d996da499a37b171d84148089934ae6c52c23ea874b5a76c3252ccf8d6f0525bb30563f87e3703c5012208f9eb96e7dd192e8a12fce3",
+          "sha256": "cec643d2396d45cd7ec35592499cfd1e5543946194327d24330124bbc1160828",
+          "sha1": "9c3ed384d70fc29ba34f88eba013b817e1ddc40b",
+          "md5": "5807d188d1d4aa7359b117aa33263ab6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vibration_release-1.0.aar",
+          "url": "vibration_release-1.0.aar",
+          "size": 5674,
+          "sha512": "49a3cd7aa8b631c99d52d996da499a37b171d84148089934ae6c52c23ea874b5a76c3252ccf8d6f0525bb30563f87e3703c5012208f9eb96e7dd192e8a12fce3",
+          "sha256": "cec643d2396d45cd7ec35592499cfd1e5543946194327d24330124bbc1160828",
+          "sha1": "9c3ed384d70fc29ba34f88eba013b817e1ddc40b",
+          "md5": "5807d188d1d4aa7359b117aa33263ab6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vibration_release-1.0-sources.jar",
+          "url": "vibration_release-1.0-sources.jar",
+          "size": 3212,
+          "sha512": "d5968737c6b71ee7b4cb2294798caa5ffcf06bad0dd878445306ce94d132e9f5ff482aa27ef53047940383b71edc6b41fb90e2571256fd4cb4ba2f80703a3df1",
+          "sha256": "9ba7f8c690080fa9025eb06a74fdae61feaaefdbcda9f88e01f7344479c831c5",
+          "sha1": "f366f2e24cf9806f2a34d2651525e7344789eaab",
+          "md5": "28ab8d7e2ed74e9a55bdf7586ad556c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vibration_release-1.0-javadoc.jar",
+          "url": "vibration_release-1.0-javadoc.jar",
+          "size": 265483,
+          "sha512": "c0f6e30f6fd0966304b07850309913a0af35f574b0d598a5e2bd983c3acf85c765c4a96c9b1d4ac3b280394bad1470fd1e748638f95b018db6ec585ab11f22b1",
+          "sha256": "aa520ffb06275669c886d591c7660e88cb237cb68a219530f197a9cdd3c30104",
+          "sha1": "3b20839018e63b8747e419b258fbf4d940317494",
+          "md5": "9c70d2a36373a18292c641588e00aac6"
+        }
+      ]
+    }
+  ]
+}

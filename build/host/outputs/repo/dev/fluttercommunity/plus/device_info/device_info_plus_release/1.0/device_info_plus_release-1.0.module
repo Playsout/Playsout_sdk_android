@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.device_info",
+    "module": "device_info_plus_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_release-1.0.aar",
+          "url": "device_info_plus_release-1.0.aar",
+          "size": 7487,
+          "sha512": "b75aa042b55b7d2f10acdd8bc2d14ac99cc4840a001ff93a099594794dd193bd9df8d985aa976af9e05e87102b62a76182cb5b18f8eb30faa1c757a8d999bbd4",
+          "sha256": "6178f2737102ec43873427f32775a81265b1927b6142e6b1ac5e6f51cd416f20",
+          "sha1": "931671a00138e58f43844ff62db1706b3ce705e3",
+          "md5": "7c8b0a803d85d607de56e4ffe12eb67c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_release-1.0.aar",
+          "url": "device_info_plus_release-1.0.aar",
+          "size": 7487,
+          "sha512": "b75aa042b55b7d2f10acdd8bc2d14ac99cc4840a001ff93a099594794dd193bd9df8d985aa976af9e05e87102b62a76182cb5b18f8eb30faa1c757a8d999bbd4",
+          "sha256": "6178f2737102ec43873427f32775a81265b1927b6142e6b1ac5e6f51cd416f20",
+          "sha1": "931671a00138e58f43844ff62db1706b3ce705e3",
+          "md5": "7c8b0a803d85d607de56e4ffe12eb67c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "device_info_plus_release-1.0-sources.jar",
+          "url": "device_info_plus_release-1.0-sources.jar",
+          "size": 3125,
+          "sha512": "b9cb00c45bc93bb579209e570cc6bccd93db4bc096aa171224af075e8692c8781fa658075ca0fac74487a49fa688512631128c1179a925ebcfc7e0df2ac1c49f",
+          "sha256": "881c3ff7cebe7fa7dcbc12c9cd124932bc1986640af6e78c69608b8c0a68b939",
+          "sha1": "baedb19f71c1d446920d5e7702e29ce5e368c7d4",
+          "md5": "cd8cd56bd2b0956e8e0eb8238a55e8dc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "device_info_plus_release-1.0-javadoc.jar",
+          "url": "device_info_plus_release-1.0-javadoc.jar",
+          "size": 260892,
+          "sha512": "8fc86c9d03f943b61590f50140b7b5ea0012e089b263e7adea74f546e82f1a00796d9c84eb4a4253c925d1fa94ab8845085ea750ed1215821a60f9515f2d1c43",
+          "sha256": "b7f7e3cf16109901a2e3220cde8155aa9416d223a7894b35d93feebde85343ce",
+          "sha1": "442fe7b23d6a1ba812df90576926a0be486c329f",
+          "md5": "ca8b96471571db215214a2aacade8063"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.packageinfo",
+    "module": "package_info_plus_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_debug-1.0.aar",
+          "url": "package_info_plus_debug-1.0.aar",
+          "size": 6157,
+          "sha512": "1df67be2e12639fa03e86ff9611e10ea1175edbc48effcc6004ced355083b0f52a465edad51acffc12be4206f9bacc40ad08be88c26b8ae4e4c940c5f6cdaaf2",
+          "sha256": "26bcdf347b93fa349fb26e6e34e0f1e06c4f53d81f33621386ffc9f3f8df5979",
+          "sha1": "d620e086f7d455016a12d6d6d283164114cb80f9",
+          "md5": "ab69c1f92d2e03459ae0b646c463f2c9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_debug-1.0.aar",
+          "url": "package_info_plus_debug-1.0.aar",
+          "size": 6157,
+          "sha512": "1df67be2e12639fa03e86ff9611e10ea1175edbc48effcc6004ced355083b0f52a465edad51acffc12be4206f9bacc40ad08be88c26b8ae4e4c940c5f6cdaaf2",
+          "sha256": "26bcdf347b93fa349fb26e6e34e0f1e06c4f53d81f33621386ffc9f3f8df5979",
+          "sha1": "d620e086f7d455016a12d6d6d283164114cb80f9",
+          "md5": "ab69c1f92d2e03459ae0b646c463f2c9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "package_info_plus_debug-1.0-sources.jar",
+          "url": "package_info_plus_debug-1.0-sources.jar",
+          "size": 2693,
+          "sha512": "baaae2e6245030a7de70f19e43504fb87d6d374ec50af2dd23321d0ab0bf43dbb918967f0b66277e2662ccb4faf2098ffcb870dd1e597bc1dc8ac730e9c7b5fb",
+          "sha256": "3f208ebbb8c9b93761dea623949b7ee1a9cd74e818acede7ccc4f562f3839a5d",
+          "sha1": "12df81060cfa11fc35581f9c91da8922a5f8e6f0",
+          "md5": "f30e01eabb60c79316840a3ed7edecb3"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "package_info_plus_debug-1.0-javadoc.jar",
+          "url": "package_info_plus_debug-1.0-javadoc.jar",
+          "size": 265105,
+          "sha512": "f157c9065368495e1b2e23cbc976479d7b15067ddce6d37a01cfc8a2473d88bc33aa86282d8364a68c31936f450eb75ba92ad22ff887de1b4e4328a89355fcfd",
+          "sha256": "aebb90a6cf605bf1341960bbef9f3e383d5d21789391c76b2c87f3aa59df4480",
+          "sha1": "3f0e1a2a669fbea23c945dd211b9040d97f1121b",
+          "md5": "5834a8ae9c9f36b45ae1189ba964a847"
+        }
+      ]
+    }
+  ]
+}

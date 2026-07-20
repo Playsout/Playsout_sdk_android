@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.firebase.crashlytics",
+    "module": "firebase_crashlytics_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_crashlytics_debug-1.0.aar",
+          "url": "firebase_crashlytics_debug-1.0.aar",
+          "size": 22948,
+          "sha512": "f9a1792b25bf01ccb26e627de915cd6f4e5cd39c66b909bed03c502c7e9643633b457e76c5a703d552f888cd4fecb90eae65c21c6b8cdc937329d22079b3eb2e",
+          "sha256": "edf9a1c9517badc499ecf20f18b6b34bf788575c3ce15b5dc4eac2d92c1c741c",
+          "sha1": "fa02c78d32968de3b92981b166c1dd67e60ebd81",
+          "md5": "c3324a8bf7f6f736c1fe64a835499ebd"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a10d8ac38de835021c8d2f920dbf50a920ccc030"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.15.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_crashlytics_debug-1.0.aar",
+          "url": "firebase_crashlytics_debug-1.0.aar",
+          "size": 22948,
+          "sha512": "f9a1792b25bf01ccb26e627de915cd6f4e5cd39c66b909bed03c502c7e9643633b457e76c5a703d552f888cd4fecb90eae65c21c6b8cdc937329d22079b3eb2e",
+          "sha256": "edf9a1c9517badc499ecf20f18b6b34bf788575c3ce15b5dc4eac2d92c1c741c",
+          "sha1": "fa02c78d32968de3b92981b166c1dd67e60ebd81",
+          "md5": "c3324a8bf7f6f736c1fe64a835499ebd"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase_crashlytics_debug-1.0-sources.jar",
+          "url": "firebase_crashlytics_debug-1.0-sources.jar",
+          "size": 12579,
+          "sha512": "78120a76948e4f465ea543b6ae58b4b54d195453c6b1955a5d8335a8ecbf514ab58ff73b3a5b226bb35ec19e1e61f1c810f58e67f773f27662d0ec2cf783b0fe",
+          "sha256": "3d96c2d1ab8cdc7ef5c9018bfa2c01bbe0d717a903302680a2ffd4c9a9384f6d",
+          "sha1": "48fddd69bc61a574432c88e8ed07b344224bb7f7",
+          "md5": "27c9d74942e6a1d9461cbf0667c474f0"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase_crashlytics_debug-1.0-javadoc.jar",
+          "url": "firebase_crashlytics_debug-1.0-javadoc.jar",
+          "size": 299050,
+          "sha512": "b9e02e81f9123fdea046edc15e03064553955aae6a7f44d4bd900fb73828f056eda2e4df073c8ac21170c9e0e64cd25d1efbfdb5c830a8254a07864aa82e0b04",
+          "sha256": "fc3d78c1248c0ea8df28038f13388fc633dd176dff6f009eeab3762bfd5c6387",
+          "sha1": "08f011ca84962240d01aeeee3bf6decdba2aa070",
+          "md5": "2d997f82597eee6ca78839126c88c614"
+        }
+      ]
+    }
+  ]
+}

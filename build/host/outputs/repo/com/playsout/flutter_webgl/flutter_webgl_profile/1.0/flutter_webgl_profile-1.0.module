@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.playsout.flutter_webgl",
+    "module": "flutter_webgl_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_webgl_profile-1.0.aar",
+          "url": "flutter_webgl_profile-1.0.aar",
+          "size": 2550290,
+          "sha512": "456c9cd3bee0c2984d0272586650e164e3ce84fc9b374d56227e011afc53c59191318d6d4a5d6986bb7daa775b0ac3f1b7822b9b2e73a57540ac19ebea97bf1e",
+          "sha256": "9631276459d184fe3cee691f82b6791774152032650a0d92e301b8e32b4b9ec2",
+          "sha1": "53d3c3455e8ddf5deebd594df69ae7290ea1b85d",
+          "md5": "cc8daf916186af09e937340abd67d275"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_webgl_profile-1.0.aar",
+          "url": "flutter_webgl_profile-1.0.aar",
+          "size": 2550290,
+          "sha512": "456c9cd3bee0c2984d0272586650e164e3ce84fc9b374d56227e011afc53c59191318d6d4a5d6986bb7daa775b0ac3f1b7822b9b2e73a57540ac19ebea97bf1e",
+          "sha256": "9631276459d184fe3cee691f82b6791774152032650a0d92e301b8e32b4b9ec2",
+          "sha1": "53d3c3455e8ddf5deebd594df69ae7290ea1b85d",
+          "md5": "cc8daf916186af09e937340abd67d275"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_webgl_profile-1.0-sources.jar",
+          "url": "flutter_webgl_profile-1.0-sources.jar",
+          "size": 7157,
+          "sha512": "9096e2a82cb4ec0d6cfe8c72e634260e11c42f824027aef023bf133bc254e43149e43be58ac81e63c9420083a1da66a91753a3be407449d78a89a63ccf1c48b1",
+          "sha256": "a07d83f42b363c1cf34f33970a4d8aa58f9844b7e960d5f31ecae7119d627959",
+          "sha1": "e1dc135cfa223ac730c553963dfdd4b28b4cbaaf",
+          "md5": "185a050b57b0f63f2f8091587fc89319"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_webgl_profile-1.0-javadoc.jar",
+          "url": "flutter_webgl_profile-1.0-javadoc.jar",
+          "size": 266994,
+          "sha512": "d6b2151c556734e78ad5a9d6e81ec87552a63b0aaa400c2b632af9750030eb1ebbd8eac77539fa95df1c9272a5d78e42bcdb6a6f12edbd29015de16c328e7870",
+          "sha256": "61b2f8d2d84b888bc8ee32d77601ff145f05c827278d16912757e092d4affd64",
+          "sha1": "889790660a91dc6c61a4e043a597781ad555d13b",
+          "md5": "a34b8c2be5e3b795d8c7a16176bf23a9"
+        }
+      ]
+    }
+  ]
+}
